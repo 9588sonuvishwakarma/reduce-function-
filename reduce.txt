@@ -1,0 +1,25 @@
+
+from functools import reduce
+list2 = [1,2,3,6,5,4,9,8,7]
+vava = reduce(lambda x,y:x+y,list2)
+print(vava)
+
+
+result = 45
+
+# from functools import reduce
+list23 = [1,2,3,6,5,4,9,8,7]
+num = 1
+for i in list23:
+    num = num*i
+print(num)
+
+result= 362880
+
+list23 = [1,2,3,6,5,4,9,8,7]
+num = 0
+for i in list23:
+    num = num+i
+print(num)
+result = 45
+
